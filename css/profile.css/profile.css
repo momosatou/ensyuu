@@ -1,0 +1,102 @@
+body {
+    background-image: url("../../images/purple.jpg");
+    background-position: center top;
+    background-size: cover;
+}
+.background{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    padding: 20px;
+    height: 65%;
+    width: 15%;
+    border: 1px solid white;
+    margin: auto;
+    position: relative;
+}
+.basket {
+    position: absolute;
+    top: 14%;
+    left: 18%;
+}
+
+.panya {
+    position: absolute;
+    top: 65%;
+    left: 3%;
+    width: 280px;
+    height: 280px;
+}
+
+.hotel {
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    width: 250px;
+    height: 250px;
+}
+
+.rikujou {
+    position: absolute;
+    top: 15%;
+    right: 18%;
+    width: 250px;
+    height: 250px;
+}
+
+.dennwa {
+    position: absolute;
+    top: 75%;
+    right: 25%;
+    width: 250px;
+    height: 250px;
+}
+
+.rezi {
+    position: absolute;
+    top: 65%;
+    right: 3%;
+    width: 250px;
+    height: 250px;
+}
+.puro{
+    position: absolute;
+    top: 10%;
+    left: 13%;
+    width: 600px;
+    height: 620px;
+}
+.syumi{
+    position: absolute;
+    top: 10%;
+    right: 11%;
+    width: 650px;
+    height: 600px;
+}
+.fan{
+    position: absolute;
+    top: 45%;
+    left: 1%;
+    width: 350px;
+    height: 350px;
+}
+.okasi{
+    position: absolute;
+    top: 10%;
+    right: 1%;
+    width: 350px;
+    height: 350px;
+}
+.ryoko{
+    position: absolute;
+    top: 45%;
+    right: 24%;
+    width: 352px;
+    height: 351px;
+}
+.sport{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 350px;
+    height: 350px;
+}

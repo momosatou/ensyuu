@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>練習台</title>
+
+</head>
+
+<body>
+    <ol>
+        <li>初日</li>
+        <li>2日目</li>
+    </ol>
+
+    <ul>
+        <li>アイスブレイキング</li>
+        <li>カレーライス作成</li>
+        <li>片付け</li>
+    </ul>
+
+    <dl>
+        <dt>アイスブレイキング</dt>
+        <dd>緊張を緩和する為のロールプレイングゲームをしてもらいます</dd>
+        <dt>カレーライス作成</dt>
+        <dd>買い物から食器洗いまで各グループで行ってもらいます</dd>
+        <dt>片付け</dt>
+        <dd>自分たちが過ごした場所全般をキレイにしてもらいます</dd>
+    </dl>
+    <div>
+        <form action="result.html">
+            <label>名前<input type="text" name="name"></label>
+          <div class="form-group">
+            趣味
+            <label>
+              <input type="checkbox" name="baseball">野球
+            </label>
+            <label>
+              <input type="checkbox" name="soccer">サッカー
+            </label>
+          </div>
+          <div class="form-group">
+            職業
+            <select name="job">
+              <option value="0" selected>選択してください</option>
+              <option value="1">会社員</option>
+              <option value="2">学生</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>意見
+            <textarea name="message" rows="2" cols="40" placeholder="ご意見を入力ください"></textarea></label>
+          </div>
+          <button type="submit">送信</button>
+        </form>
+    </div>
+</body>

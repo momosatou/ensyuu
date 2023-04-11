@@ -1,0 +1,28 @@
+body{
+    background-image: url("../images/bg_Argyle.jpg");
+}
+caption{
+    color: red;
+}
+.table {
+    border-color: red;
+    background-color: oldlace;
+}
+.mo {
+    display: inline-block;
+    vertical-align: top;
+}
+.form {
+    background-color: white;
+    border: 5px;
+}
+.tyuuou {
+    text-align: center;
+}
+.kadomaru {
+    border: 1px solid rgb(146, 139, 139); 
+    display: inline-block;
+    border-radius: 5px; /* 時計回りに左上、右上、右下、左下の角の半径を指定 */
+    padding: 0.3em; 
+   }
+   
